@@ -5,6 +5,7 @@ import 'Jokenpo.dart';
 
 main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Jokenpo(),
   ));
 }
